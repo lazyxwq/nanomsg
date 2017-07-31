@@ -48,8 +48,8 @@
 #include <sys/time.h>
 #include <pthread.h>
 
-#include <nanomsg/nn.h>
-#include <nanomsg/reqrep.h>
+#include "nanomsg/nn.h"
+#include "nanomsg/reqrep.h"
 
 /*  MAXWORKERS is a limit on the on the number of workers we will fire
     off.  Since each worker processes jobs sequentially, this is a limit

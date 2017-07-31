@@ -50,8 +50,8 @@
 #include <netinet/in.h>  /* For htonl and ntohl */
 #include <unistd.h>
 
-#include <nanomsg/nn.h>
-#include <nanomsg/pubsub.h>
+#include "nanomsg/nn.h"
+#include "nanomsg/pubsub.h"
 
 /*  The server runs forever. */
 int server(const char *url)

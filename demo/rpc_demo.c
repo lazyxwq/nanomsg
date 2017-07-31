@@ -46,8 +46,8 @@
 #include <string.h>
 #include <time.h>
 
-#include <nanomsg/nn.h>
-#include <nanomsg/reqrep.h>
+#include "nanomsg/nn.h"
+#include "nanomsg/reqrep.h"
 
 /*  The server runs forever. */
 int server(const char *url)

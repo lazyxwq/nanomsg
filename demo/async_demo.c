@@ -46,8 +46,8 @@
 #include <time.h>
 #include <sys/time.h>
 
-#include <nanomsg/nn.h>
-#include <nanomsg/reqrep.h>
+#include "nanomsg/nn.h"
+#include "nanomsg/reqrep.h"
 
 /*  MAXJOBS is a limit on the on the number of outstanding requests we
     can queue.  We will not accept new inbound jobs if we have more than
